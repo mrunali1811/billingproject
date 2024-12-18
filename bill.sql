@@ -17,5 +17,3 @@ select * from Phones;
 create table LEDs(Bill_no varchar(500) primary key,Customer_Name varchar(500),Phone_no varchar(500),sony double,samsungled double,
 chroma double,Xiaomi double,Toshiba double,Panasonic double,LED_Price double,LED_tax varchar(500),Total_Bill double);
 select * from LEDs;
-
-Drop database billingpy;
